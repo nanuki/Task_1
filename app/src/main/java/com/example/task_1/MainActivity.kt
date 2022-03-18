@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity(), KoinComponent{
         bindingEvent.imageView.setOnClickListener(View.OnClickListener {
            GlobalScope.launch(Dispatchers.IO){
                viewModel.setData()
-               //  viewModel.getRecyclerData()
+
 
            }
 
