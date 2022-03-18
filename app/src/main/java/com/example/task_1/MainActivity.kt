@@ -38,7 +38,6 @@ class MainActivity : AppCompatActivity(), KoinComponent{
             bindingEvent.recycler.adapter = customAdapter
             bindingEvent.recycler.layoutManager =LinearLayoutManager(this)
             customAdapter!!.notifyDataSetChanged()
-            //tost
         })
 
         GlobalScope.launch(Dispatchers.IO){
